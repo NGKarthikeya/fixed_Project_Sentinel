@@ -1,0 +1,40 @@
+timestamp,username,source_ip,dest_ip,country,city,latitude,longitude,auth_result,user_agent,failure_reason
+2024-01-15T08:01:12Z,alice@corp.local,103.21.58.22,10.20.1.10,CN,Beijing,39.9042,116.4074,FAILURE,Mozilla/5.0 (Windows NT 10.0),Invalid password
+2024-01-15T08:01:45Z,alice@corp.local,185.220.101.34,10.20.1.10,RU,Moscow,55.7558,37.6173,FAILURE,Python-Requests/2.28,Invalid password
+2024-01-15T08:02:10Z,alice@corp.local,91.219.236.90,10.20.1.10,UA,Kyiv,50.4501,30.5234,FAILURE,curl/7.68,Account locked
+2024-01-15T08:15:00Z,alice@corp.local,10.20.1.5,10.20.1.10,IN,Mumbai,19.0760,72.8777,SUCCESS,Mozilla/5.0 (Windows NT 10.0),
+2024-01-15T08:25:00Z,alice@corp.local,103.21.58.30,10.20.1.10,JP,Tokyo,35.6762,139.6503,FAILURE,Python-Requests/2.28,Impossible travel
+2024-01-15T09:30:00Z,bob@corp.local,10.20.1.6,10.20.1.10,IN,Bengaluru,12.9716,77.5946,SUCCESS,Mozilla/5.0 (Macintosh),
+2024-01-15T09:31:00Z,bob@corp.local,185.220.102.8,10.20.1.10,DE,Frankfurt,50.1109,8.6821,FAILURE,libwww-perl/6.49,Invalid password
+2024-01-15T09:31:30Z,bob@corp.local,195.54.160.149,10.20.1.10,NL,Amsterdam,52.3676,4.9041,FAILURE,Wget/1.20,Invalid password
+2024-01-15T09:32:00Z,bob@corp.local,45.142.212.100,10.20.1.10,RO,Bucharest,44.4268,26.1025,FAILURE,curl/7.74,Account locked
+2024-01-15T10:00:00Z,admin@corp.local,10.20.2.30,10.20.2.30,IN,New Delhi,28.6139,77.2090,SUCCESS,Mozilla/5.0 (Windows NT 10.0),
+2024-01-15T10:01:00Z,admin@corp.local,109.70.100.19,10.20.2.30,US,New York,40.7128,-74.0060,FAILURE,Python-Requests/2.28,Impossible travel
+2024-01-15T10:01:30Z,admin@corp.local,109.70.100.20,10.20.2.30,BR,Sao Paulo,-23.5505,-46.6333,FAILURE,curl/7.68,Invalid password
+2024-01-15T10:02:00Z,admin@corp.local,199.249.230.87,10.20.2.30,CN,Shanghai,31.2304,121.4737,FAILURE,libwww-perl/6.49,Brute force detected
+2024-01-15T10:03:00Z,admin@corp.local,199.249.230.88,10.20.2.30,KR,Seoul,37.5665,126.9780,FAILURE,Wget/1.20,Brute force detected
+2024-01-15T10:30:00Z,priya.sharma@corp.local,10.20.3.50,10.20.3.50,IN,Hyderabad,17.3850,78.4867,SUCCESS,Mozilla/5.0 (X11; Linux),
+2024-01-15T10:40:00Z,priya.sharma@corp.local,89.234.157.254,10.20.3.50,FR,Paris,48.8566,2.3522,FAILURE,Python-Requests/2.28,Impossible travel
+2024-01-15T10:41:00Z,priya.sharma@corp.local,171.25.193.77,10.20.3.50,SE,Stockholm,59.3293,18.0686,FAILURE,curl/7.68,Invalid password
+2024-01-15T10:42:00Z,priya.sharma@corp.local,185.107.47.215,10.20.3.50,HK,Hong Kong,22.3193,114.1694,FAILURE,Nmap Scripting Engine,Port scan detected
+2024-01-15T11:00:00Z,rahul.mehta@corp.local,10.20.4.15,10.20.4.15,IN,Pune,18.5204,73.8567,SUCCESS,Mozilla/5.0 (Windows NT 10.0),
+2024-01-15T11:01:00Z,rahul.mehta@corp.local,185.220.100.240,10.20.4.15,US,Chicago,41.8781,-87.6298,FAILURE,Python-Requests/2.28,Impossible travel
+2024-01-15T11:01:30Z,rahul.mehta@corp.local,185.220.100.241,10.20.4.15,AU,Sydney,-33.8688,151.2093,FAILURE,curl/7.68,Invalid password
+2024-01-15T11:02:00Z,rahul.mehta@corp.local,185.220.100.242,10.20.4.15,ZA,Johannesburg,-26.2041,28.0473,FAILURE,libwww-perl/6.49,Brute force detected
+2024-01-15T11:30:00Z,neha.gupta@corp.local,10.20.5.12,10.20.5.12,IN,Chennai,13.0827,80.2707,SUCCESS,Mozilla/5.0 (Macintosh),
+2024-01-15T11:31:00Z,neha.gupta@corp.local,195.206.105.217,10.20.5.12,PK,Karachi,24.8607,67.0011,FAILURE,Python-Requests/2.28,Geo-anomaly
+2024-01-15T11:32:00Z,neha.gupta@corp.local,195.206.105.218,10.20.5.12,IR,Tehran,35.6892,51.3890,FAILURE,curl/7.68,Geo-anomaly
+2024-01-15T11:33:00Z,vikram.singh@corp.local,185.143.223.75,10.20.5.99,SY,Damascus,33.5138,36.2765,FAILURE,Nmap Scripting Engine,Port scan detected
+2024-01-15T11:34:00Z,vikram.singh@corp.local,91.240.118.15,10.20.5.99,RU,Saint Petersburg,59.9343,30.3351,FAILURE,Python-Requests/2.28,Brute force detected
+2024-01-15T11:35:00Z,vikram.singh@corp.local,91.234.99.42,10.20.5.99,CN,Guangzhou,23.1291,113.2644,FAILURE,curl/7.74,Account locked
+2024-01-15T12:00:00Z,svc-backup@corp.local,10.20.2.45,10.20.2.45,IN,Kolkata,22.5726,88.3639,SUCCESS,backup-agent/2.1,
+2024-01-15T12:01:00Z,svc-backup@corp.local,185.56.80.101,10.20.2.45,RU,Novosibirsk,54.9884,82.9657,FAILURE,Python-Requests/2.28,Service account abuse
+2024-01-15T12:02:00Z,svc-backup@corp.local,91.192.100.55,10.20.2.45,CN,Chengdu,30.5728,104.0668,FAILURE,curl/7.68,Service account abuse
+2024-01-15T12:03:00Z,alice@corp.local,103.21.58.22,10.20.1.10,CN,Beijing,39.9042,116.4074,FAILURE,Python-Requests/2.28,Credential stuffing
+2024-01-15T12:04:00Z,alice@corp.local,185.220.101.34,10.20.1.10,RU,Moscow,55.7558,37.6173,FAILURE,libwww-perl/6.49,Credential stuffing
+2024-01-15T12:05:00Z,bob@corp.local,91.234.99.42,10.20.1.10,CN,Guangzhou,23.1291,113.2644,FAILURE,Wget/1.20,Credential stuffing
+2024-01-15T12:06:00Z,admin@corp.local,199.249.230.89,10.20.2.30,VN,Hanoi,21.0278,105.8342,FAILURE,Python-Requests/2.28,Credential stuffing
+2024-01-15T12:07:00Z,priya.sharma@corp.local,89.234.157.253,10.20.3.50,ID,Jakarta,-6.2088,106.8456,FAILURE,curl/7.68,Credential stuffing
+2024-01-15T12:08:00Z,rahul.mehta@corp.local,185.220.100.243,10.20.4.15,PH,Manila,14.5995,120.9842,FAILURE,libwww-perl/6.49,Credential stuffing
+2024-01-15T12:09:00Z,neha.gupta@corp.local,195.206.105.219,10.20.5.12,BD,Dhaka,23.8103,90.4125,FAILURE,Wget/1.20,Credential stuffing
+2024-01-15T12:10:00Z,vikram.singh@corp.local,185.56.83.10,10.20.5.99,NP,Kathmandu,27.7172,85.3240,FAILURE,Python-Requests/2.28,Credential stuffing
